@@ -1,0 +1,5 @@
+{
+    "ETHSCAN_URI": "https://api.etherscan.io/api",
+    "ETHSCAN_KEY": "9WMP9WM1VATAZG4I7KH1UDNZDWIF1EP3KJ",
+    "COIN_MAP_URI": "https://coinmap.org/api/v1/"
+}
