@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 
-export default function LoremIpsum() {
+export default function FirstPage() {
   return (
     <Typography>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas

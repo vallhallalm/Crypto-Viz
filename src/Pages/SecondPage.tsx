@@ -1,8 +1,8 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import NewsDisplayer from "../components/API/NewsDisplayer";
+import NewsDisplayer from "../components/API/CryptoPanic/NewsDisplayer";
 
-export default function LoremIpsum() {
+export default function SecondPage() {
   return (
     <Box
       sx={{

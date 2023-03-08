@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import NavBar, { navBarHeight } from "../components/NavBar/NavBar";
-import LoremIpsum from "../Pages/LoremIpsum";
-import LoremIpsum2 from "../Pages/LoremIpsum2";
+import FirstPage from "../Pages/FirstPage";
+import SecondPage from "../Pages/SecondPage";
 import Box from "@mui/material/Box";
 import NoPage from "../Pages/NoPage";
 
@@ -11,8 +11,8 @@ export default function RoutesWithNavBar() {
       <NavBar />
       <Box sx={{ height: `calc(100% - ${navBarHeight})` }}>
         <Routes>
-          <Route path="firstPage" element={<LoremIpsum />} />
-          <Route path="secondPage" element={<LoremIpsum2 />} />
+          <Route path="firstPage" element={<FirstPage />} />
+          <Route path="secondPage" element={<SecondPage />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Box>
